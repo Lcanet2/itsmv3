@@ -1,10 +1,8 @@
-import { appsidebar } from "./components/appssidebar"
-
 function App() {
 
   return (
     <div>
-      <appsidebar></appsidebar>
+      <app-sidebar></app-sidebar>
     </div>
   )
 }
