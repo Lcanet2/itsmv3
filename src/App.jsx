@@ -2,7 +2,7 @@ function App() {
 
   return (
     <div>
-      <app-sidebar></app-sidebar>
+   {/* mettre sidebar ici */}
     </div>
   )
 }
