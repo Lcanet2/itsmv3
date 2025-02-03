@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Ticket, Home, Computer, List, Wrench, UserCog, Settings } from "lucide-react";
 
 import {
   Sidebar,
@@ -16,27 +16,37 @@ import {
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "Home",
     icon: Home,
   },
   {
     title: "Assets",
-    url: "#",
-    icon: Inbox,
+    url: "Assets",
+    icon: Computer,
   },
   {
-    title: "Tickets",
-    url: "#",
-    icon: Calendar,
+    title: "Assistance",
+    url: "Assistance",
+    icon: Ticket,
   },
   {
-    title: "Search",
-    url: "#",
-    icon: Search,
+    title: "Management",
+    url: "Management",
+    icon: List,
   },
   {
-    title: "Settings",
-    url: "#",
+    title: "Tools",
+    url: "Tools",
+    icon: Wrench,
+  },
+  {
+    title: "Administration",
+    url: "Administration",
+    icon: UserCog,
+  },
+  {
+    title: "Setup",
+    url: "Setup",
     icon: Settings,
   },
 ]
