@@ -1,7 +1,5 @@
 import * as React from "react";
 
-console.log("Home");
-
 
 
 export default function Home() {
