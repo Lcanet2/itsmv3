@@ -13,6 +13,9 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 
+console.log('test');
+
+
 const groups = [
   {
     label: "Resources",
