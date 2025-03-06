@@ -27,13 +27,13 @@ import {
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "Léo Canet",
+    email: "leo.canet@itsm-ng.com",
     avatar: "/avatars/shadcn.jpg",
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "ITSM-NG",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
     },
@@ -50,7 +50,7 @@ const data = {
   ],
   navMain: [
     {
-      title: "Playground",
+      title: "Assets",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
@@ -70,7 +70,7 @@ const data = {
       ],
     },
     {
-      title: "Models",
+      title: "Assistance",
       url: "#",
       icon: Bot,
       items: [
@@ -89,7 +89,7 @@ const data = {
       ],
     },
     {
-      title: "Documentation",
+      title: "Gestion",
       url: "#",
       icon: BookOpen,
       items: [
@@ -112,7 +112,7 @@ const data = {
       ],
     },
     {
-      title: "Settings",
+      title: "Outils",
       url: "#",
       icon: Settings2,
       items: [
