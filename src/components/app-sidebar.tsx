@@ -1,19 +1,19 @@
 import * as React from "react"
 import {
-  AudioWaveform,
-  BookOpen,
-  Bot,
-  Command,
-  Frame,
+  ShieldUser,
+  BriefcaseBusiness,
+  Headset,
+  Cog,
+  User,
   GalleryVerticalEnd,
   Map,
   PieChart,
-  Settings2,
-  SquareTerminal,
+  Wrench,
+  Warehouse,
+  icons,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
-import { NavProjects } from "@/components/nav-projects"
 import { NavUser } from "@/components/nav-user"
 import { TeamSwitcher } from "@/components/team-switcher"
 import {
@@ -24,7 +24,6 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 
-// This is sample data.
 const data = {
   user: {
     name: "Léo Canet",
@@ -36,27 +35,17 @@ const data = {
       name: "ITSM-NG",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
-    },
-    {
-      name: "Acme Corp.",
-      logo: AudioWaveform,
-      plan: "Startup",
-    },
-    {
-      name: "Evil Corp.",
-      logo: Command,
-      plan: "Free",
-    },
+    }
   ],
   navMain: [
     {
       title: "Assets",
       url: "#",
-      icon: SquareTerminal,
+      icon: Warehouse,
       isActive: true,
       items: [
         {
-          title: "History",
+          title: "Ordinateurs",
           url: "#",
         },
         {
@@ -72,7 +61,7 @@ const data = {
     {
       title: "Assistance",
       url: "#",
-      icon: Bot,
+      icon: Headset,
       items: [
         {
           title: "Genesis",
@@ -91,7 +80,7 @@ const data = {
     {
       title: "Gestion",
       url: "#",
-      icon: BookOpen,
+      icon: BriefcaseBusiness,
       items: [
         {
           title: "Introduction",
@@ -114,7 +103,7 @@ const data = {
     {
       title: "Outils",
       url: "#",
-      icon: Settings2,
+      icon: Wrench,
       items: [
         {
           title: "General",
@@ -134,23 +123,55 @@ const data = {
         },
       ],
     },
-  ],
-  projects: [
     {
-      name: "Design Engineering",
+      title: "Administration",
       url: "#",
-      icon: Frame,
+      icon: ShieldUser,
+      items: [
+        {
+          title: "Utilisateurs",
+          url: "#",
+          icons: User,
+        },
+        {
+          title: "Groupes",
+          url: "#",
+        },
+        {
+          title: "Entités",
+          url: "#",
+        },
+        {
+          title: "Règles",
+          url: "#",
+         }, 
+        {
+          title: "Dictionnaires",
+          url: "#",
+        },
+        {
+          title: "Profils",
+          url: "#",
+        },
+        {
+          title: "File d'attente des notifications",
+          url: "#",
+        },
+        {
+          title: "File d'attente pour le chat",
+          url: "#",
+        },
+        {
+          title: "Journaux",
+          url: "#",
+        },
+       ]
     },
     {
-      name: "Sales & Marketing",
+      title: "Configuration",
       url: "#",
-      icon: PieChart,
-    },
-    {
-      name: "Travel",
-      url: "#",
-      icon: Map,
-    },
+      icon: Cog,
+    }
   ],
 }
 
