@@ -64,7 +64,7 @@ const data = {
       icon: Headset,
       items: [
         {
-          title: "Genesis",
+          title: "Ticket",
           url: "#",
         },
         {
