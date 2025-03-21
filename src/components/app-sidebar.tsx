@@ -68,7 +68,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "Créer un ticket",
           url: "#",
         },
         {
