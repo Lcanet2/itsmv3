@@ -72,7 +72,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "Problèmes",
           url: "#",
         },
       ],
