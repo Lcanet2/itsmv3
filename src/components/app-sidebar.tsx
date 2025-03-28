@@ -6,11 +6,8 @@ import {
   Cog,
   User,
   GalleryVerticalEnd,
-  Map,
-  PieChart,
   Wrench,
   Warehouse,
-  icons,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
