@@ -50,7 +50,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Settings",
+          title: "Moniteurs",
           url: "#",
         },
       ],
