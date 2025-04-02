@@ -80,7 +80,7 @@ const data = {
       icon: BriefcaseBusiness,
       items: [
         {
-          title: "Introduction",
+          title: "Licenses",
           url: "#",
         },
         {
