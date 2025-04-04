@@ -103,7 +103,7 @@ const data = {
       icon: Wrench,
       items: [
         {
-          title: "General",
+          title: "Projet",
           url: "#",
         },
         {
