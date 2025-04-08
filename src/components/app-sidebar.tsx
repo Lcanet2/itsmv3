@@ -111,7 +111,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Team",
+          title: "Notes",
           url: "#",
         },
         {
