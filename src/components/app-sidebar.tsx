@@ -115,7 +115,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Billing",
+          title: "flux RSS",
           url: "#",
         },
         {
