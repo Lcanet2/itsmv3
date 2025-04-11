@@ -119,7 +119,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Limits",
+          title: "Base de connaissances",
           url: "#",
         },
       ],
