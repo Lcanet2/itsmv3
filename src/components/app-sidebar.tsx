@@ -172,6 +172,20 @@ const data = {
       title: "Configuration",
       url: "#",
       icon: Cog,
+      items : [
+       {
+          title: "Initulés",
+          url: "#",
+         },
+         {
+          title: "Langues",
+          url: "#",
+         },
+         {
+          title: "Mots de passe",
+          url: "#",
+         },
+     ],
     }
   ],
 }
