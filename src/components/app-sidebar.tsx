@@ -178,7 +178,7 @@ const data = {
           url: "#",
          },
          {
-          title: "Langues",
+          title: "Composants",
           url: "#",
          },
          {
