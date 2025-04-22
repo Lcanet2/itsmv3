@@ -174,7 +174,7 @@ const data = {
       icon: Cog,
       items : [
        {
-          title: "Initulés",
+          title: "Intitulés",
           url: "#",
          },
          {
