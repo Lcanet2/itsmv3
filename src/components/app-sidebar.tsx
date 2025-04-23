@@ -182,7 +182,7 @@ const data = {
           url: "#",
          },
          {
-          title: "Mots de passe",
+          title: "Notifications",
           url: "#",
          },
      ],
