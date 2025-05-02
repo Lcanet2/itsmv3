@@ -189,6 +189,10 @@ const data = {
           title: "Niveau de service",
            url: "#",
          },
+           {
+          title: "Générale",
+            url: "#",
+            },
      ],
     }
   ],
