@@ -193,10 +193,14 @@ const data = {
           title: "Générale",
             url: "#",
             },
-             {
+            {
             title: "Unicité des champs",
               url: "#",
-             }  
+            },
+            {
+              title: "Action automatique",
+                url: "#",
+            },
      ],
     }
   ],
