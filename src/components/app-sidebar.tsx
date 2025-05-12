@@ -205,6 +205,10 @@ const data = {
              title: "Authentification",
                url: "#",
             },
+            {
+               title: "Collecteur",
+                 url: "#",
+            },
      ],
     }
   ],
