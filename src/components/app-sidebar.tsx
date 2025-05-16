@@ -213,6 +213,10 @@ const data = {
               title: "Liens externes",
                 url: "#",
             },
+            {
+              title: "Plugins",
+              url: "#",
+            },
      ],
     }
   ],
