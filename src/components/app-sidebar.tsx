@@ -46,11 +46,11 @@ const data = {
           url: "#",
         },
         {
-          title: "PDU",
+          title: "Moniteurs",
           url: "#",
         },
         {
-          title: "Moniteurs",
+          title: "Logiciels",
           url: "#",
         },
       ],
