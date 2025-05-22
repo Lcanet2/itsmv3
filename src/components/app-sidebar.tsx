@@ -53,6 +53,10 @@ const data = {
           title: "Logiciels",
           url: "#",
         },
+        {
+          title: "Matériel Réseau",
+          url: "#",
+        },
       ],
     },
     {
