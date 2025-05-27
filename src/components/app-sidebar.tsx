@@ -57,6 +57,10 @@ const data = {
           title: "Matériel Réseau",
           url: "#",
         },
+        {
+          title: "Périphériques réseau",
+          url: "#",
+        }
       ],
     },
     {
