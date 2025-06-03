@@ -58,7 +58,7 @@ const data = {
           url: "#",
         },
         {
-          title: "Périphériques réseau",
+          title: "Périphériques",
           url: "#",
         }
       ],
